@@ -14,29 +14,29 @@ const Navbar = () => {
 
       <ul className="nav__navbar-links">
         <li className="p__opensans">
-          <a href="#">Home</a>
+          Home
         </li>
         <li className="p__opensans">
-          <a href="#">About</a>
+          About
         </li>
         <li className="p__opensans">
-          <a href="#">Menu</a>
+          Menu
         </li>
         <li className="p__opensans">
-          <a href="#">Awards</a>
-        </li>
+          Awards
+        </li> 
         <li className="p__opensans">
-          <a href="#">Contact</a>
+          Contact
         </li>
       </ul>
       <div className="nav__navbar-login">
-        <a href="#" className="p__opensans">
+        <p  className="p__opensans">
           Log In/Register
-        </a>
+        </p>
         <div />
-        <a href="#" className="p__opensans">
+        <p  className="p__opensans">
           Book A Table
-        </a>
+        </p>
       </div>
 
       <div className="nav__navbar-smallscreen">
@@ -50,21 +50,21 @@ const Navbar = () => {
             onClick={() => setToggleMenu(false)}
           />
            <ul className="nav__navbar-smallscreen-links">
-          <li className="p__opensans">
-            <a href="#">Home</a>
-          </li>
-          <li className="p__opensans">
-            <a href="#">About</a>
-          </li>
-          <li className="p__opensans">
-            <a href="#">Menu</a>
-          </li>
-          <li className="p__opensans">
-            <a href="#">Awards</a>
-          </li>
-          <li className="p__opensans">
-            <a href="#">Contact</a>
-          </li>
+           <li className="p__opensans">
+          Home
+        </li>
+        <li className="p__opensans">
+          About
+        </li>
+        <li className="p__opensans">
+          Menu
+        </li>
+        <li className="p__opensans">
+          Awards
+        </li> 
+        <li className="p__opensans">
+          Contact
+        </li>
         </ul> 
         </div>
        
