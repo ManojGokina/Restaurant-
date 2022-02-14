@@ -20,7 +20,7 @@ import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
 
-const imageData= {
+export const images= {
   bg,
   chef,
   G,
@@ -43,4 +43,3 @@ const imageData= {
   quote,
   gericht,
 };
- export default imageData;

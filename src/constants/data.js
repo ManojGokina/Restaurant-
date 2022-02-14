@@ -1,6 +1,6 @@
-import images from './images';
+import {images} from './images';
 
-const wines = [
+ export const wines = [
   {
     title: 'Chapel Hill Shiraz',
     price: '$56',
@@ -28,7 +28,7 @@ const wines = [
   },
 ];
 
-const cocktails = [
+export const cocktails = [
   {
     title: 'Aperol Sprtiz',
     price: '$20',
@@ -56,7 +56,7 @@ const cocktails = [
   },
 ];
 
-const awards = [
+ export const awards = [
   {
     imgUrl: images.award02,
     title: 'Bib Gourmond',
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+
